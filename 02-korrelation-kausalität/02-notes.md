@@ -1,0 +1,4 @@
+- https://www.economist.com/graphic-detail/2025/02/19/do-lonely-people-have-shorter-lives
+    - spricht von korrelationen als "Effekte"; erst im letzten Absatz ein Satz zu correlation vs causation, aber nicht ehrlich. 
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10446003/ && https://www.washingtonpost.com/politics/2023/01/06/gas-stove-pollution-causes-127-childhood-asthma-study-finds/
+    - gas stoves cause 13% of asthma

@@ -1,0 +1,5 @@
+- https://www.rwi-essen.de/presse/wissenschaftskommunikation/unstatistik/detail/unstatistik-des-monats-statistische-taschenspielertricks-in-der-armutsberichterstattung
+    - tagesschau-bericht: "armut in deutschland nimmt zu", "so hoch wie jahre nicht mehr"
+- https://www.rwi-essen.de/presse/wissenschaftskommunikation/unstatistik/archiv/2021/detail/deutsche-sind-die-armen-schlucker-europas
+    - "deutsche sind die armen Schlucker europas" - nur am in Privathaushalten gehaltenen Geldeinkommen gemessen, nicht vermögen, rentenansprüche, oÄ; Gegenüberstellung 2022-2024
+- Hier vermutlich Beispiele aus der Politik zu finden

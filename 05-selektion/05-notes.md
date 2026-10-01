@@ -1,0 +1,2 @@
+- https://www.wsj.com/tech/personal-tech/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739, https://www.forbes.com/sites/siladityaray/2021/09/27/facebook-attempts-to-push-back-against-report-which-called-instagram-toxic-for-teenage-girls/
+    - 1 in 3 teen girls **already experiencing body image issues!**

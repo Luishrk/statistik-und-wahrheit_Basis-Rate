@@ -1,0 +1,21 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'myposter.blg'
+[97] biber:342> INFO - === Thu Oct  1, 2026, 09:52:52
+[151] Biber.pm:421> INFO - Reading 'myposter.bcf'
+[350] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
+[378] Biber.pm:4487> INFO - Processing section 0
+[389] Biber.pm:4678> INFO - Looking for bibtex file 'Library.bib' for section 0
+[397] bibtex.pm:1713> INFO - LaTeX decoding ...
+[664] bibtex.pm:1519> INFO - Found BibTeX data source 'Library.bib'
+[838] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[839] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[839] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[839] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[839] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[857] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[858] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[858] Biber.pm:4307> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[858] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[869] bbl.pm:676> INFO - Writing 'myposter.bbl' with encoding 'UTF-8'
+[875] bbl.pm:779> INFO - Output to myposter.bbl

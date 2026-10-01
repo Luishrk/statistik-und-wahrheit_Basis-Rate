@@ -1,0 +1,12 @@
+.bbl
+.blg
+.nav
+.snm
+.synctex.gz
+.toc
+.aux
+.log
+.out
+.run.xml
+
+!.gitignore
