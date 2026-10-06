@@ -1,0 +1,23 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'myposter-back.blg'
+[65] biber:340> INFO - === Tue Oct  6, 2026, 15:13:33
+[82] Biber.pm:419> INFO - Reading 'myposter-back.bcf'
+[189] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[204] Biber.pm:4419> INFO - Processing section 0
+[212] Biber.pm:4610> INFO - Looking for bibtex file 'Library.bib' for section 0
+[221] bibtex.pm:1713> INFO - LaTeX decoding ...
+[346] bibtex.pm:1519> INFO - Found BibTeX data source 'Library.bib'
+[391] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[391] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[391] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[391] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[391] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[399] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[399] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[399] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[399] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[399] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[405] bbl.pm:660> INFO - Writing 'myposter-back.bbl' with encoding 'UTF-8'
+[408] bbl.pm:763> INFO - Output to myposter-back.bbl
+[408] Biber.pm:131> WARN - legacy year field '14.03.2021' in entry 'PHE2021' is not an integer - this will probably not sort properly.
+[408] Biber.pm:133> INFO - WARNINGS: 1

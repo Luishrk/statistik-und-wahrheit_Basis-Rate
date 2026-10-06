@@ -1,0 +1,191 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Dertwinkel-Kalt2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=60907a5b8540e74daf32624e540f3914}{%
+           family={Dertwinkel-Kalt},
+           familyi={D\bibinithyphendelim K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=17fe97041df0a8a19d8dbf6064c4f23d}{%
+           family={Gerhardt},
+           familyi={G\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7161390fefdb08c1177e54930487df9e}{%
+           family={Riener},
+           familyi={R\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=98fb8bed6c75b8689a5a9fffd9993453}{%
+           family={Schwerter},
+           familyi={S\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7273d5dabd82e534dcf2ff27cde1a7d9}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{989d91a3a5da00d7fcf5a2336b133804}
+      \strng{fullhash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{bibnamehash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{authorbibnamehash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{authornamehash}{989d91a3a5da00d7fcf5a2336b133804}
+      \strng{authorfullhash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{We present novel findings on intertemporal choice that cannot be explained by discounted utility, including hyperbolic discounting. In a series of lab experiments, we let subjects allocate money to earlier and later payoffs. We vary within-subject whether these payoffs are concentrated in a single period or dispersed over multiple periods. Our results show that intertemporal choice is affected by concentration bias: First, individuals allocate less money to later payoffs when these are dispersed than when they are concentrated. Second, individuals allocate more money to later payoffs when the earlier payoffs are dispersed than when they are concentrated. The design of our experiment permits distinguishing between competing theoretical explanations of the observed effect. Despite the prevalence of dispersed payoffs and costs in everyday life, our study is the first to investigate whether spreading payoffs over time has a causal effect on intertemporal choice.}
+      \field{journaltitle}{Review of Economic Studies}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Concentration Bias in Intertemporal Choice}}
+      \field{volume}{89}
+      \field{year}{2022}
+      \field{pages}{1314\bibrangedash 1334}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1093/restud/rdab043
+      \endverb
+    \endentry
+    \entry{PHE2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d34d8835aa972d11755997e40e784175}{%
+           family={England},
+           familyi={E\bibinitperiod},
+           given={Public\bibnamedelima Health},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d34d8835aa972d11755997e40e784175}
+      \strng{fullhash}{d34d8835aa972d11755997e40e784175}
+      \strng{bibnamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authorbibnamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authornamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authorfullhash}{d34d8835aa972d11755997e40e784175}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{COVID-19 vaccine surveillance report Week 38}
+      \field{year}{14.03.2021}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/covid-19-vaccine-surveillance-report
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/covid-19-vaccine-surveillance-report
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global}
+    \entry{Dertwinkel-Kalt2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=60907a5b8540e74daf32624e540f3914}{%
+           family={Dertwinkel-Kalt},
+           familyi={D\bibinithyphendelim K\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=17fe97041df0a8a19d8dbf6064c4f23d}{%
+           family={Gerhardt},
+           familyi={G\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7161390fefdb08c1177e54930487df9e}{%
+           family={Riener},
+           familyi={R\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=98fb8bed6c75b8689a5a9fffd9993453}{%
+           family={Schwerter},
+           familyi={S\bibinitperiod},
+           given={Frederik},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7273d5dabd82e534dcf2ff27cde1a7d9}{%
+           family={Strang},
+           familyi={S\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{989d91a3a5da00d7fcf5a2336b133804}
+      \strng{fullhash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{bibnamehash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{authorbibnamehash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \strng{authornamehash}{989d91a3a5da00d7fcf5a2336b133804}
+      \strng{authorfullhash}{6c8c6c7287f78854d5ca2ed3757ca428}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{We present novel findings on intertemporal choice that cannot be explained by discounted utility, including hyperbolic discounting. In a series of lab experiments, we let subjects allocate money to earlier and later payoffs. We vary within-subject whether these payoffs are concentrated in a single period or dispersed over multiple periods. Our results show that intertemporal choice is affected by concentration bias: First, individuals allocate less money to later payoffs when these are dispersed than when they are concentrated. Second, individuals allocate more money to later payoffs when the earlier payoffs are dispersed than when they are concentrated. The design of our experiment permits distinguishing between competing theoretical explanations of the observed effect. Despite the prevalence of dispersed payoffs and costs in everyday life, our study is the first to investigate whether spreading payoffs over time has a causal effect on intertemporal choice.}
+      \field{journaltitle}{Review of Economic Studies}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Concentration Bias in Intertemporal Choice}}
+      \field{volume}{89}
+      \field{year}{2022}
+      \field{pages}{1314\bibrangedash 1334}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1093/restud/rdab043
+      \endverb
+    \endentry
+    \entry{PHE2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d34d8835aa972d11755997e40e784175}{%
+           family={England},
+           familyi={E\bibinitperiod},
+           given={Public\bibnamedelima Health},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d34d8835aa972d11755997e40e784175}
+      \strng{fullhash}{d34d8835aa972d11755997e40e784175}
+      \strng{bibnamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authorbibnamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authornamehash}{d34d8835aa972d11755997e40e784175}
+      \strng{authorfullhash}{d34d8835aa972d11755997e40e784175}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{title}{COVID-19 vaccine surveillance report Week 38}
+      \field{year}{14.03.2021}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/covid-19-vaccine-surveillance-report
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/covid-19-vaccine-surveillance-report
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

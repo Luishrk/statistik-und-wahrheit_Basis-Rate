@@ -1,0 +1,413 @@
+% !TeX program = pdflatex
+% !TeX TS-program = pdflatex
+% !TeX TXS-program:compile = txs:///pdflatex/
+
+% !BIB program = biber
+% !BIB TS-program = biber
+% !TeX TXS-program:bibliography = txs:///biber
+
+
+
+
+\documentclass{beamer}
+
+
+\usepackage{import}
+\input    {Preamble_Poster}
+\input    {Preamble_BibLaTeX_AER}  %\input{Preamble_BibLaTeX_APA}
+\subimport{}{Preamble_Fonts_Charter_FiraSans}
+\input    {Preamble_Sansserif_math}
+
+% Set up desired deviations from the default bibliography settings here:
+\ExecuteBibliographyOptions{
+	backref = false, giveninits = true,
+	uniquename = false, uniquelist = false
+}
+\AtEveryBibitem{\clearfield{doi}}
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearfield{eprint}}
+
+\bibliography{Library}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  DOCUMENT-SPECIFIC ADDITIONS TO THE PREAMBLE  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newlength{\blockOne}
+\newlength{\blockTwo}
+\newlength{\blockThree}
+\newlength{\blockFour}
+
+% Vertical positions
+\setlength{\blockOne}  {12.75cm}
+\setlength{\blockTwo}  {44.00cm}
+\setlength{\blockThree}{71.00cm}
+\setlength{\blockFour} {99.50cm}
+
+\title{03 - Basisrate \\
+	\Large{Statistik und Wahrheit}}
+\author{%
+	Luis Hornik
+} 
+\date{}
+
+\usepackage{xspace}
+\newcommand{\balA}[1][1]{BAL$^\mathup{I}_{#1:#1}$\xspace}
+\newcommand{\unbalA}[1][n]{UNBAL$^\mathup{I}_{1:#1}$\xspace}
+\newcommand{\balB}[1][1]{BAL$^\mathup{II}_{#1:#1}$\xspace}
+\newcommand{\unbalB}[1][n]{UNBAL$^\mathup{II}_{#1:1}$\xspace}
+
+\newcommand{\mynum}[1]{\scalebox{1.075}{\firasemibold#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%%  DOCUMENT BODY  %%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%\displaygrid
+%\displaymargins
+
+
+\begin{frame}[t]	% Entire poster is one large frame
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  FIGURES  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Recommendation:
+% Place figures and tables at the top of the poster.
+% This way they will be at eye level.
+% You will mostly be talking about your figures and tables, while
+% the body text is largely supplementary and can thus be placed
+% in the bottom half of your poster (at hip level ...).
+
+% Surround figures by frame
+\TPshowboxestrue
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Das Konzept  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{3\colwidth + 2\colsep}(\leftmargin, \blockOne)
+
+\begin{alertblock}{%
+	\begin{minipage}[b]{60pt}
+		\RaggedRight
+		\noindent\hspace{-10pt}\VeryHuge 1
+	\end{minipage}%
+	\begin{minipage}[b]{3\colwidth+2\colsep-125pt}\strut%
+		Einführung \;
+		{\mdseries Ein fiktives Beispiel mit Auflösung}
+	\end{minipage}%
+}
+	\vspace{-0.25cm}
+	\begin{minipage}{\textwidth}
+		\begin{beamercolorbox}[
+			ht = 24.5cm, 
+			wd = \linewidth, 
+			left
+		]{block body}
+
+			\begin{center}
+		Versetzen Sie sich in die (unangenehme) Lage von 2021 wieder. Die ersten Covids Antigen-Tests sind bereits öffentlich zu kaufen. Sie lesen: „Die Tests sind zu 99\,\% zuverlässig.“, d.h. der Test erkennt 99 \,\% der Infizierten korrekt und bei Nichtinfizierten ist er zu 99 \,\% negativ. Sie sind nun positiv getestet. Mit welcher Wahrscheinlichkeit sind Sie mit dem Corona-Virus infiziert?
+			\begin{enumerate}
+ 			\item Vielleich 99\,\%
+  			\item 90 \,\%
+  			\item 50\,\%
+  			\item oder 10\,\%?
+			\end{enumerate}
+			\end{center}
+
+			\vspace{0.3cm}
+		Folgendes einfaches Rechenbeispiel:\\
+		a.)	Von 10.000 Personen sind 1\,\% tatsächlich infiziert. Unter den 100 infizierten werden 99 richtig erkannt und einer falsch negativ getestet. Unter den 9.900 nicht infizierten werden 99 falsch positiv getestet. D.h. von 198 positiven Tests sind nur 99 tatsächlich infiziert! Also \textbf{beträgt die Wahrscheinlichkeit infiziert zu sein bei einem positiven Test 50\,\%\ } obwohl der Test zu 99\,\% zuverlässig ist. \\
+		b.)	Nehmen Sie nun an 10\,\% der Personen sind tatsächlich infiziert. Unter denselben Bedingungen beträgt nun die Wahrscheinlichkeit infiziert zu sein bei einem positiven Test, überzeugen Sie sich selbst, ca. 92\,\%. 
+
+		\vspace{0.5cm}
+		Sie sehen, diese Wahrscheinlichkeit hängt von der \textit{Basisrate} oder der \textit{A-priori-Wahrscheinlichkeit} infiziert zu sein ab. D.h. die Wahrscheinlichkeit infiziert zu sein bei einem positiven Testergebnis ist \textbf{nicht} gleich der Wahrscheinlichkeit ein positives Testergebnis zu haben, wenn Sie infiziert sind. Der Fehler: „99\,\% der Infizierten werden positiv getestet“ wird zu „bei positivem Test bin ich zu 99\,\% infiziert.“ Dabei fehlt: Wie viele Menschen sind überhaupt infiziert?
+		
+		\vspace{0.3cm}
+		Dieser scheinbar einfach zu vermeidende Fehler kann jedoch sehr schnell vorkommen.
+		\end{beamercolorbox}
+	\end{minipage}%
+	\vspace{0.5cm}
+\end{alertblock}
+
+\end{textblock*}
+
+% Textblocks can be placed at arbitrary positions and with arbitrary dimensions
+%\TPshowboxesfalse
+%\begin{textblock*}{\colwidth+0.4cm}(\leftmargin+\colwidth+\colsep-0.2cm, \blockOne+18.75cm)
+	%\setbeamercolor{highlight}{bg = UBonnYellow, fg = white}
+	%\begin{beamercolorbox}[sep = 25pt, center]{highlight}
+		%\sffamily\bfseries\small%\\
+		%Recommendation: \\
+		%Place figures and tables at the top of the poster. \\[\medskipamount]
+		%\mdseries
+		%You will be primarily talking about your figures and tables. \\
+		%Hence, these are the most important elements of your poster. \\
+		%Placing them at the top puts them at eye level. \\
+		%The body text is largely supplementary and can thus \\
+		%be placed in the bottom half.
+	%\end{beamercolorbox}
+%\end{textblock*}
+%\TPshowboxestrue
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Beispiel 1  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{3\colwidth + 2\colsep}(\leftmargin, \blockTwo)
+
+\begin{alertblock}{%
+	\begin{minipage}[b]{60pt}
+		\RaggedRight
+		\noindent\hspace{-10pt}\VeryHuge 2
+	\end{minipage}%
+	\begin{minipage}[b]{3\colwidth+2\colsep-125pt}\strut%
+		Erklärung des Basisratenfehlers am Beispiel Berensons \;
+		{\mdseries \small Alle Daten beziehen sich auf den Bericht "COVID-19 vaccine surveillance reports (weeks 19 to 38)" \cite{PHE2021} auf den sich auf Berenson mutmaßlich bezieht.}
+	\end{minipage}%
+}
+	\vspace{-0.25cm}
+	\begin{minipage}{\textwidth}
+		\begin{beamercolorbox}[
+			ht = 7cm, 
+			wd = \linewidth, 
+			left
+		]{block body}
+
+		\textbf{\large 1. Die Zahl stimmt – aber was bedeutet sie?}
+
+		\vspace{0.35cm}
+\begin{minipage}{0.92\linewidth}
+    \centering
+    \large
+    In England waren zwischen dem 23.~August und dem
+    19.~September 2021 tatsächlich
+    \textbf{2.284 von 3.158 COVID-19-Verstorbenen}
+    vollständig geimpft – rund \textbf{72\,\%}.
+    \cite{PHE2021} Die Zahl beschreibt den \textbf{Anteil der Geimpften
+    unter den Verstorbenen}.
+\end{minipage}
+
+\vspace{0.7cm}
+
+\textbf{\large 2. Aber wie viele Menschen waren überhaupt in England geimpft?}
+
+		\end{beamercolorbox}
+	\end{minipage}%
+
+\vspace{0.35cm}
+
+\begin{minipage}{0.92\linewidth}
+    \centering
+    \large
+    Zum selben Zeitpunkt waren bereits rund
+    \textbf{77\,\% der Bevölkerung ab 12 Jahren vollständig geimpft}.
+    Bei den über 80-Jährigen lag die Impfquote sogar bei
+    \textbf{über 90\,\%}.
+    \cite{PHE2021}
+\end{minipage}
+
+\vspace{0.7cm}
+\textbf{\large 3. Was passiert, wenn wir die Bezugsgruppen richtig wählen?}
+
+\vspace{0.35cm}
+\begin{minipage}{0.92\linewidth}
+    \centering
+    \large
+    Statt nur zu fragen, welchen Anteil der Verstorbenen
+    die Geimpften ausmachen, vergleichen wir die
+    \textbf{Sterberate innerhalb der beiden Gruppen}.
+\end{minipage}
+\begin{center}
+    \renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{c|c|c}
+        \textbf{Alter} &
+        \textbf{Geimpfte} &
+        \textbf{Ungeimpfte} \\ \hline
+        60--69 & 4,5 & 23,1 \\
+        70--79 & 13,1 & 66,4 \\
+        80+    & 49,5 & 156,0
+    \end{tabular}
+\end{center}
+
+\vspace{0.15cm}
+
+\begin{minipage}{0.92\linewidth}
+    \centering
+    \small
+    COVID-19-Todesfälle pro 100.000 Personen im jeweiligen
+    Impf- und Altersstatus, England, 23.~August--19.~September 2021.
+    \cite{PHE2021}
+\end{minipage}
+\vspace{0.25cm}
+
+\begin{beamercolorbox}[
+    wd=0.88\linewidth,
+    sep=0.25cm,
+    center
+]{block body}
+    \centering
+    \textbf{\large Die Sterberate war bei Ungeimpften
+    in diesen Altersgruppen deutlich höher.} \\
+	Also beantwortet die Frage \textit{„Welcher Anteil der COVID-19-Verstorbenen
+    war geimpft?“} \textbf{nicht} zwangsläufig die Frage \textit{„Wie hoch ist das Sterberisiko für einen Geimpften
+    im Vergleich zu einem Ungeimpften?“}
+
+\end{beamercolorbox}
+
+
+\end{alertblock}
+
+\end{textblock*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Beispiel 2  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{1.5 \colwidth + 0.5\colsep}(\leftmargin, \blockThree)
+
+\begin{alertblock}{%
+	\begin{minipage}[b]{60pt}
+		\RaggedRight
+		\noindent\hspace{-10pt}\VeryHuge 3
+	\end{minipage}%
+	\begin{minipage}[b]{2\colwidth+\colsep-125pt}\strut%
+		Zweites Beispiel.\; {\mdseries hier evtl kurze Beschreibung}
+	\end{minipage}%
+}
+	\begin{beamercolorbox}[
+		ht = 12.75cm, 
+		wd = 0.9\linewidth, 
+		center
+		]{block body}
+		\centering{textbf{\boldmath Beispiel~2.\; Korrelation und Kausalität zu verwechseln ist immer schlecht, weil Manager VWL-Absolventen auf dem Jobmarkt nicht wertschätzen, wenn ihnen der Unterschied nicht selbst auffällt.}}\par
+	\end{beamercolorbox}
+\end{alertblock}
+
+\end{textblock*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Beispiel 3  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{1.5\colwidth + 0.5\colsep}(\leftmargin + 1.5\colwidth + \colsep, \blockThree)
+
+\begin{alertblock}{%
+	\begin{minipage}[b]{60pt}
+		\RaggedRight
+		\noindent\hspace{-10pt}\VeryHuge 4
+	\end{minipage}%
+	\begin{minipage}[b]{2\colwidth+\colsep-125pt}\strut%
+		Drittes Beispiel.\; {\mdseries hier evtl kurze Beschreibung}
+	\end{minipage}%
+}
+	\begin{beamercolorbox}[
+		ht = 12.75cm, 
+		wd = 0.975\linewidth, 
+		center
+		]{block body}
+		\textcolor{SpotColor}{\textbf{Drittes, möglicherweise weniger gut passendes Beispiel}}\\[46pt]
+		%hier der Syntax, wenn Grafiken verwendet werden sollen:
+		%\includegraphics[width = 0.975\linewidth, trim = {9.5cm 4.5cm 9.5cm 5cm}, clip] 
+			%{images/average_pb_fb.png}\hspace{0.5cm}\null\\[25pt]
+	\end{beamercolorbox}
+\end{alertblock}
+
+\end{textblock*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  BOTTOM TEXT  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TPshowboxesfalse
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%  Columns 1 + 2  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{2\colwidth + \colsep}(\leftmargin, \blockFour)
+
+\begin{parblock}{Diskussion \& Einordnung}
+\end{parblock}
+
+\end{textblock*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Column 1  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{2\colwidth + \colsep}(\leftmargin, \blockFour)
+
+\begin{parblock}{~}  % Include nonbreaking space (~) for empty heading
+	\begin{beamercolorbox}[
+    wd=0.92\linewidth,
+    sep=0.35cm,
+    left
+]{block body}
+
+    \small
+    Die britische Gesundheitsbehörde selbst warnte davor,
+    die Zusammensetzung der COVID-19-Fälle, Hospitalisierungen
+    und Todesfälle nach Impfstatus unmittelbar als Maß für
+    die Wirksamkeit der Impfung zu interpretieren.
+    Bei einer hohen Impfquote ist es erwartbar, dass ein
+    beträchtlicher Anteil der Fälle auch auf Geimpfte entfällt.
+
+    \vspace{0.1cm}
+    \raggedleft
+    \textit{Quelle: Public Health England,
+    COVID-19 vaccine surveillance report -- Week 38,
+    23.~September 2021.}
+
+\end{beamercolorbox}
+
+	\vspace{0.666667\baselineskip}\noindent%
+	\alert{Anything else} \sidenote{\citep{Dertwinkel-Kalt2022}}:
+	\begin{itemize}
+		\setlength{\itemsep}{0pt}
+		\item Use this syntax when citing anything, bibtex entries in libary.bib are automatically formatted.
+	\end{itemize}
+
+\end{parblock}
+
+\end{textblock*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Column 2  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{textblock*}{\colwidth}(\leftmargin + 2\colwidth + 2\colsep, \blockFour)
+
+\begin{parblock}{\textmd{\refname}}
+	\vspace{-1.333333\baselineskip}  % Include this negative \vspace if starting a parblock with a list.
+	\setlength{\bibhang}{0pt}
+	\setlength{\bibsep}{0\baselineskip}
+	\renewcommand*{\bibfont}{\sffamily\small\setlength{\baselineskip}{28.8pt}}
+	%\renewcommand*{\bibfont}{\fontsize{23.5pt}{27.65pt}\sffamily}  % Adjust freely if necessary
+	\renewcommand*{\bf}{\bfseries}
+	\begin{refcontext}[sorting = nyt]
+		% Sort BIBLIOGRAPHY by alphabet (while CITATIONS are sorted by year)
+	\printbibliography[heading = none]
+	\end{refcontext}
+	%% Only when using BibTeX instead of BibLaTeX ==>
+	%\bibliographystyle{aea_doi_initials}
+	%\renewcommand{\harvardand}{\&}
+	%\bibliography{Library}
+	%% <==
+	
+\end{parblock}
+
+\end{textblock*}
+
+\end{frame}
+
+
+\end{document}
