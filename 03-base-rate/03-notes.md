@@ -1,5 +1,0 @@
-- https://www.rwi-essen.de/en/press/science-communication/non-statistics/detail/die-gefaehrlichsten-strassen-deutschlands
-    - die gefährlichsten Straßen deutschlands - in absoluten Unfallszahlen, nicht relativ gemessen
-- https://science.orf.at/stories/3219964/ && https://www.hardingcenter.de/de/unstatistik/unstatistik-des-monats-der-klimawandel-fuehrt-zu-mehr-fruehgeburten-0
-	- absolutes vs relatives risiko: wie viel wahrscheinlicher ist eine Frühgeburt nach 2 konsekutiven Hitzetagen?
-- Ziel wäre noch 1-2 Beispiele, gerne auch (einfache) Gedankenbeispiele
